@@ -1,0 +1,90 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+  
+  body {
+      font-family: sans-serif;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  
+  header {
+      background-color: rgb(245, 187, 27);
+  }
+  
+  .primary-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 32px 0;
+  }
+  
+  .secondary-container {
+      width: 100%;
+      max-width: 1200px;
+      display: flex;
+  }
+  
+  header.header > nav {
+      justify-content: space-between;
+      height: 100px;
+  }
+  
+  body > header > nav > a > span {
+      font-size: 32px;
+      font-weight: bold;
+      color: rgb(214, 42, 148);
+      line-height: 100px;
+  }
+  
+  header.header > nav ul.nav-menu {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      list-style: none;
+      gap: 40px;
+  }
+  
+  header.header > nav ul.nav-menu li {
+      color: rgb(34, 5, 5);
+  }
+  
+  header.header > nav ul.nav-menu li:hover {
+      background-color: aqua;
+      border-radius: 3px;
+      padding: 12px;
+  }
+  
+  .banner img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      padding: 0;
+  }
+  
+  .four-card > div {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  section.four-card > div div.card {
+      display: flex;
+      width: 23%;
+      gap: 24px;
+      flex-direction: column;
+  }
+  
+  section.four-card > div div.card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+  }
+  
+  section.four-card > div div.card p {
+      line-height: 1.4;
+  }
